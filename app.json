@@ -1,10 +1,10 @@
 {
-  "name": "eth-faucet",
-  "repository": "https://github.com/chainflag/eth-faucet",
+  "name": "moonbase-faucet",
+  "repository": "https://github.com/AxelarSea/eth-faucet",
   "env": {
     "WEB3_PROVIDER": {
       "description": "JSON-RPC endpoint uri to an Ethereum node",
-      "value": "https://ropsten.infura.io"
+      "value": "https://rpc.api.moonbase.moonbeam.network"
     },
     "PRIVATE_KEY": {
       "description": "Private key hex string of the funding account"

@@ -38,6 +38,7 @@ npm run build
 3. Build Go project 
 ```bash
 go build -o eth-faucet
+go build -o moonbase-faucet
 ```
 
 ## Usage
@@ -46,6 +47,10 @@ go build -o eth-faucet
 
 ```bash
 ./eth-faucet -httpport 8080 -wallet.provider http://localhost:8545 -wallet.privkey privkey
+```
+
+```bash
+./moonbase-faucet -httpport 8080 -wallet.provider https://rpc.api.moonbase.moonbeam.network -wallet.privkey <privkey>
 ```
 
 **Use keystore to fund users**
@@ -106,8 +111,8 @@ docker run -d -p 8080:8080 -e WEB3_PROVIDER=rpc endpoint -e KEYSTORE=keystore pa
 heroku create
 heroku buildpacks:add heroku/nodejs
 heroku buildpacks:add heroku/go
-heroku config:set WEB3_PROVIDER=rpc endpoint
-heroku config:set PRIVATE_KEY=hex private key
+heroku config:set WEB3_PROVIDER=https://rpc.api.moonbase.moonbeam.network
+heroku config:set PRIVATE_KEY=<private key>
 git push heroku main
 heroku open
 ```
