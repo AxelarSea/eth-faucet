@@ -1,5 +1,5 @@
 {
-  "name": "moonbase-faucet",
+  "name": "eth-faucet",
   "repository": "https://github.com/AxelarSea/eth-faucet",
   "env": {
     "WEB3_PROVIDER": {
