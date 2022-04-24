@@ -6,7 +6,7 @@
   let address = null;
   let faucetInfo = {
     account: '0x0000000000000000000000000000000000000000',
-    network: 'moonbase alpha',
+    network: 'moonbase',
     payout: 1,
   };
 
