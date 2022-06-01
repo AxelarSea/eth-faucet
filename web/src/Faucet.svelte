@@ -51,7 +51,7 @@
 </script>
 
 <main>
-  <section class="hero is-info is-fullheight">
+  <section class="hero is-warning is-fullheight">
     <div class="hero-head">
       <nav class="navbar">
         <div class="container">
@@ -109,7 +109,7 @@
 </main>
 
 <style>
-  .hero.is-info {
+  .hero.is-warning {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url('/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
