@@ -110,8 +110,7 @@
 
 <style>
   .hero.is-warning {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('/bgmoonbeam.png') no-repeat center center fixed;
+    background: url('/bgmoonbeam.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
